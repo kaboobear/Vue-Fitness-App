@@ -23,7 +23,7 @@
             </div>
 
             <div @click="loginHandler" class="login-btn">
-                Go
+                Go 2
             </div>
         </div>
 
@@ -45,7 +45,7 @@
                     </div>
 
                     <div @click="registerHandler" class="login-btn">
-                        Go
+                        Go 2
                     </div>
                 </div>
             </div>
