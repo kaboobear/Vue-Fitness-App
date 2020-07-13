@@ -172,13 +172,10 @@ const actions = {
             const config = {headers:{'Content-type':'application/json'}}
             const body = JSON.stringify(loginData)
             axios.post(url+'/user/login',body,config).then(res =>{
-                alert("x");
                 localStorage.setItem('token',res.data.token);
-                console.log(res.data);
                 commit('login',res.data);
                 resolve(res);
             }).catch(err =>{
-                alert("y");
                 if(err.response) commit('setErrors',err.response.data)
                 console.log(err);
                 reject(err);

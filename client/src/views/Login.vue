@@ -23,7 +23,7 @@
             </div>
 
             <div @click="loginHandler" class="login-btn">
-                Go 2
+                Go
             </div>
         </div>
 
@@ -45,7 +45,7 @@
                     </div>
 
                     <div @click="registerHandler" class="login-btn">
-                        Go 2
+                        Go
                     </div>
                 </div>
             </div>
@@ -83,7 +83,6 @@
                     }
 
                     this.login(user).then(()=>{
-                        alert("x");
                         this.$router.push('/home')
                         this.clickSound.play();
                     })

@@ -15,11 +15,11 @@
         },
         created(){
           this.fetchUser()
-          // .then(res => {
-          //   if(res.data.user && this.$route.path != '/home') this.$router.push('/home');
-          // }).catch(()=>{
-          //   if (this.$route.path != '/') this.$router.push('/');
-          // })
+          .then(res => {
+            if(res.data.user && this.$route.path != '/home') this.$router.push('/home');
+          }).catch(()=>{
+            if (this.$route.path != '/') this.$router.push('/');
+          })
         }
     }
 </script>
