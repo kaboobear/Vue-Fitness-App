@@ -8,8 +8,8 @@
 
 
 ### Screenshots
-<img src="screenshots/kaboo1.png" width="675">
+<img src="screenshots/img1.png" width="675">
 <br>
-<img src="screenshots/kaboo2.png" width="675">
+<img src="screenshots/img2.png" width="675">
 <br>
-<img src="screenshots/kaboo3.png" width="675">
+<img src="screenshots/img3.png" width="675">
