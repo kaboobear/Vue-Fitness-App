@@ -5,8 +5,6 @@
 + "npm run server" to run front-end
 + "npm install" to install necessary modules
 
-<hr>
-
 ![Layout](kaboo1.png)
 
 <br>
