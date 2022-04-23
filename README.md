@@ -1,7 +1,6 @@
 <h1 align="center">Vue Fitness App</h1>
 
 ### How To Use
-
 - Clone this repo on your device
 - ```npm install``` into 'root' and 'client'
 - ```npm run server``` and ```npm run client```
