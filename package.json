@@ -7,7 +7,8 @@
     "server": "nodemon server",
     "client": "npm run serve --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client \"",
-    "heroku-postbuild": "npm run prod"
+    "heroku-postbuild": "npm run prod",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -23,5 +24,8 @@
     "nodemon": "^2.0.2",
     "serve-static": "^1.14.1",
     "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
   }
 }
