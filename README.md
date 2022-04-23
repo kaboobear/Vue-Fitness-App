@@ -3,17 +3,13 @@
 ### How To Use
 
 - Clone this repo to your device
-- "npm run server" to run front-end
-- "npm install" to install necessary modules
+- ```npm install``` into 'root' and 'client'
+- ```npm run server``` and ```npm run client```
 
-<hr>
 
-![Layout](screenshots/kaboo1.png)
-
+### Screenshots
+<img src="screenshots/kaboo1.png" width="675">
 <br>
-
-![Layout](screenshots/kaboo2.png)
-
+<img src="screenshots/kaboo2.png" width="675">
 <br>
-
-![Layout](screenshots/kaboo3.png)
+<img src="screenshots/kaboo3.png" width="675">
