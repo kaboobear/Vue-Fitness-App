@@ -2,7 +2,7 @@
 
 ### How To Use
 
-- Clone this repo to your device
+- Clone this repo on your device
 - ```npm install``` into 'root' and 'client'
 - ```npm run server``` and ```npm run client```
 
